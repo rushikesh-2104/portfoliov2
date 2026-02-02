@@ -355,14 +355,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-white h-[0.5px] w-full"></div>
-          <div className="pt-5 pb-5">
-            <div><p>_05.</p></div>
-            <div>
-            <span className={`${anton.className} text-4xl md:text-8xl hover:text-green-400`}>RESUME BUILDS</span> <br />
-            <span className="md:text-2xl text-sm">Resume Builder Webapplication</span> <br />
-            <span className="cursor-pointer hover:text-green-500">Live Demo : <a href="https://resume-builds.vercel.app/"> resume-builds.vercel.app </a>  </span>
-            </div>
+          <div className="bg-green-500 flex scale-100 active:scale-90 text-white md:w-[10vw] w-[40vw] text-center md:pl-4 pl-5 py-2 mt-5 rounded">
+          <Github/>
+          <a href="https://github.com/rushikesh-2104" target="_blank">Explore More</a> 
           </div>
 
         </div>
