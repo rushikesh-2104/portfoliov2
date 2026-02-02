@@ -18,7 +18,7 @@ export default function Home() {
       <div id="home" className="relative pb-30 md:pb-50">
 
         <div className="flex">
-          <span className="text-white hidden md:block rotate-90 origin-bottom-left pl-65 md:pl-85 md:pb-5 pb-1">
+          <span className="fixed text-white hidden md:block rotate-90 origin-bottom-left pl-65 md:pl-85 md:pb-5 pb-1">
             hrishi210402@gmail.com
           </span>
         </div>
@@ -79,7 +79,7 @@ export default function Home() {
 
       </div>
 
-      <div id="about" className="h-full pb-10">
+      <div id="about" className="h-full pb-30">
         
         <div className="px-5 md:px-20">
           <p className={`${lora.className} text-slate-200 md:text-7xl hidden md:block`}>I believe in a user centered design approach,
@@ -98,7 +98,7 @@ export default function Home() {
         
         <div className="text-white px-5 md:px-20 pt-2 md:pt-10">
 <div className="md:grid grid-cols-2 grid-rows-1 gap-1">
-    <div className={`${lora.className} text-3xl md:text-5xl pb-3`}>Hii, I'm Rushikesh.</div>
+    <div className={`${lora.className} text-3xl md:text-5xl pb-3`}>Hii, I'm <b className="text-green-400">Rushikesh</b>.</div>
     <div className="text-md md:text-2xl">I'm a frontend web developer dedicated to turning ideas into creative solutions.
       I specialize in creating seamless and intuitive user experiences.
       My approach focuses on creating scalable, high-performing solutions tailored to both user
@@ -109,7 +109,7 @@ export default function Home() {
         </div>
 
         <div className="px-5 md:px-20 pt-20 text-white">
-        <p className="font-sans text-2xl">My Stack</p>
+        <p className={`${lora.className} text-2xl`}>My Stack</p>
   
 <div className="md:grid grid-cols-2 grid-rows-1 gap-1 pt-10">
 
@@ -127,7 +127,7 @@ export default function Home() {
 
       <div className="flex pl-10">
       <span>
-        <Image alt="css3" height={70} width={70} quality={100} src="/css3.png"/>
+        <Image alt="css3" height={70} width={70} quality={75} src="/css3.png"/>
       </span>
       <span className="pt-5 text-2xl font-sans">
         CSS3
@@ -136,7 +136,7 @@ export default function Home() {
 
       <div className="flex md:pl-10">
       <span>
-        <Image alt="javascript" height={70} width={70} quality={100} src="/js.png" />
+        <Image alt="javascript" height={70} width={70} quality={75} src="/js.png" />
       </span>
       <span className="pt-5 text-2xl font-sans">
         JAVASCRIPT
@@ -146,7 +146,7 @@ export default function Home() {
 
       <div className="flex pt-5">
       <span>
-        <Image alt="angular" height={60} width={60} quality={100} src="/ng.png" />
+        <Image alt="angular" height={60} width={60} quality={75} src="/ng.png" />
       </span>
       <span className="pt-3 text-2xl font-sans">
         ANGULAR
@@ -155,7 +155,7 @@ export default function Home() {
 
       <div className="flex pl-10 pt-5">
       <span>
-        <Image alt="REACT" height={50} width={50} quality={100} src="/react.png" />
+        <Image alt="REACT" height={50} width={50} quality={75} src="/react.png" />
       </span>
       <span className="pt-3 pl-1 text-2xl font-sans">
         REACT
@@ -164,7 +164,7 @@ export default function Home() {
 
       <div className="flex md:pl-10 pt-5">
       <span>
-        <Image alt="bootstrap" height={50} width={50} quality={100} src="/bootstrap.png" />
+        <Image alt="bootstrap" height={50} width={50} quality={75} src="/bootstrap.png" />
       </span>
       <span className="pt-3 pl-1 text-2xl font-sans">
         BOOTSTRAP
@@ -173,7 +173,7 @@ export default function Home() {
 
       <div className="flex md:pt-5 pt-8">
       <span>
-        <Image alt="typescript" height={60} width={60} quality={100} src="/ts.png" />
+        <Image alt="typescript" height={60} width={60} quality={75} src="/ts.png" />
       </span>
       <span className="pt-3 text-2xl font-sans">
         TYPESCRIPT
@@ -182,7 +182,7 @@ export default function Home() {
 
       <div className="flex pl-5 md:pt-5 pt-8">
       <span>
-        <Image alt="nextjs" height={50} width={50} quality={100} src="/next.png" />
+        <Image alt="nextjs" height={50} width={50} quality={75} src="/next.png" />
       </span>
       <span className="pt-3 pl-1 text-2xl font-sans">
         NEXT.JS
@@ -191,7 +191,7 @@ export default function Home() {
 
        <div className="flex md:pl-5 pt-5">
       <span>
-        <Image alt="GSAP" height={50} width={50} quality={100} src="/gsap.png" />
+        <Image alt="GSAP" height={50} width={50} quality={75} src="/gsap.png" />
       </span>
       <span className="pt-3 pl-1 text-2xl font-sans">
         GSAP
@@ -212,7 +212,7 @@ export default function Home() {
     <div className="flex flex-wrap">
       <div className="flex">
       <span>
-        <Image alt="nodejs" height={70} width={70} quality={100} src="/node.png" />
+        <Image alt="nodejs" height={70} width={70} quality={75} src="/node.png" />
       </span>
       <span className="pt-5 pl-2 text-2xl font-sans">
         NODE.JS
@@ -221,7 +221,7 @@ export default function Home() {
 
       <div className="flex md:pl-10 pl-2">
       <span>
-        <Image alt="EXPRESS" height={40} width={40} quality={100} src="/express.png" className="md:pt-4 pt-3"/>
+        <Image alt="EXPRESS" height={40} width={40} quality={75} src="/express.png" className="md:pt-4 pt-3"/>
       </span>
       <span className="md:pt-5 pt-4 pl-2 text-2xl font-sans">
         EXPRESS.JS
@@ -242,7 +242,7 @@ export default function Home() {
     <div className="flex flex-wrap">
       <div className="flex">
       <span>
-        <Image alt="mysql" height={70} width={70} quality={100} src="/mysql.png" />
+        <Image alt="mysql" height={70} width={70} quality={75} src="/mysql.png" />
       </span>
       <span className="pt-7 pl-2 text-2xl font-sans">
         MYSQL
@@ -251,7 +251,7 @@ export default function Home() {
 
       <div className="flex md:pl-10 pl-5">
       <span>
-        <Image alt="mongodb" height={50} width={50} quality={100} src="/mongodb.png" className="pt-5"/>
+        <Image alt="mongodb" height={50} width={50} quality={75} src="/mongodb.png" className="pt-5"/>
       </span>
       <span className="pt-7 text-2xl font-sans">
         MONGODB
@@ -272,7 +272,7 @@ export default function Home() {
     <div className="flex flex-wrap">
       <div className="flex pt-5 md:pt-0">
       <span>
-        <Image alt="git" height={70} width={70} quality={100} src="/git.png" />
+        <Image alt="git" height={70} width={70} quality={75} src="/git.png" />
       </span>
       <span className="pt-5 pl-2 text-2xl font-sans">
         GIT
@@ -281,7 +281,7 @@ export default function Home() {
 
       <div className="flex pl-10 pt-5 md:pt-0">
       <span>
-        <Image alt="vercel" height={50} width={50} quality={100} src="/vercel.png" className="py-1 mt-1 bg-white"/>
+        <Image alt="vercel" height={50} width={50} quality={75} src="/vercel.png" className="py-1 mt-1 bg-white"/>
       </span>
       <span className="pt-5 pl-2 text-2xl font-sans">
         VERCEL
@@ -291,7 +291,7 @@ export default function Home() {
 
       <div className="flex md:pl-5 pl-2">
       <span>
-        <Image alt="postman" height={50} width={50} quality={100} src="/postman.png" className="pt-2"/>
+        <Image alt="postman" height={50} width={50} quality={75} src="/postman.png" className="pt-2"/>
       </span>
       <span className="pt-5 pl-2 text-2xl font-sans">
         POSTMAN
@@ -306,6 +306,63 @@ export default function Home() {
 
         </div>
 
+      </div>
+
+      <div id="projects" className="h-full pb-10 px-5 md:px-20 text-white">
+        <p className={`${lora.className} text-2xl`}>My Recent Projects</p>
+
+        <div className="pt-10">
+          <div className="bg-white h-[0.5px] w-full"></div>
+          <div className="pt-5 pb-5">
+            <div><p>_01.</p></div>
+            <div>
+            <span className={`${anton.className} text-4xl md:text-8xl hover:text-green-400`}>NK INTERIORS</span> <br />
+            <span className="md:text-2xl text-sm">Interior Designer Personal Portfolio</span> <br />
+            <span className="cursor-pointer hover:text-green-500">Live Demo : https://nkinterior.vercel.app/ </span>
+            </div>
+          </div>
+
+          <div className="bg-white h-[0.5px] w-full"></div>
+          <div className="pt-5 pb-5">
+            <div><p>_02.</p></div>
+            <div>
+            <span className={`${anton.className} text-4xl md:text-8xl hover:text-green-400`}>SUMEDH CULINARY</span> <br />
+            <span className="md:text-2xl text-sm">Chef Personal Portfolio</span> <br />
+            <span className="cursor-pointer hover:text-green-500">Live Demo : https://sumedh-portfolio-seven.vercel.app/ </span>
+            </div>
+          </div>
+
+          <div className="bg-white h-[0.5px] w-full"></div>
+          <div className="pt-5 pb-5">
+            <div><p>_03.</p></div>
+            <div>
+            <span className={`${anton.className} text-4xl md:text-8xl hover:text-green-400`}>FOCUS FOLIO</span> <br />
+            <span className="md:text-2xl text-sm">Mobile Photography Portfolio</span> <br />
+            <span className="cursor-pointer hover:text-green-500">Live Demo : https://focusfolio.vercel.app/ </span>
+            </div>
+          </div>
+
+          <div className="bg-white h-[0.5px] w-full"></div>
+          <div className="pt-5 pb-5">
+            <div><p>_04.</p></div>
+            <div>
+            <span className={`${anton.className} text-4xl md:text-8xl hover:text-green-400`}>PERSONAL PORTFOLIO</span> <br />
+            <span className="md:text-2xl text-sm">Personal Portfolio version 1</span> <br />
+            <span className="cursor-pointer hover:text-green-500">Live Demo : https://portfolio-one-green-75.vercel.app/ </span>
+            </div>
+          </div>
+
+          <div className="bg-white h-[0.5px] w-full"></div>
+          <div className="pt-5 pb-5">
+            <div><p>_05.</p></div>
+            <div>
+            <span className={`${anton.className} text-4xl md:text-8xl hover:text-green-400`}>RESUME BUILDS</span> <br />
+            <span className="md:text-2xl text-sm">Resume Builder Webapplication</span> <br />
+            <span className="cursor-pointer hover:text-green-500">Live Demo : https://resume-builds.vercel.app/ </span>
+            </div>
+          </div>
+
+        </div>
       </div>
     </>
   );
