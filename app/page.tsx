@@ -1,6 +1,7 @@
 import { Download } from "lucide-react";
 import { Lora } from "next/font/google";
 
+
 const lora = Lora({
   subsets: ["latin"],
   weight: "400",   
@@ -100,6 +101,14 @@ export default function Home() {
       I strive to deliver experiences that not only engage users but also drive tangible results.
       </div>
 </div>
+        </div>
+
+        <div className="flex px-5 pt-10 md:px-20">
+          
+          
+
+          
+
         </div>
 
       </div>

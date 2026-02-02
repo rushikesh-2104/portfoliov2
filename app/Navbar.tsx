@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <>
       
-      <div className="fixed top-0 left-0 w-full z-[60] flex items-center justify-between px-5 md:px-10 py-4">
+      <div className="fixed top-0 left-0 w-full z-[60] flex items-center justify-between px-5 md:px-5 py-4">
         
         
         <h1 className={`${anton.className} text-white font-extrabold text-xl md:text-2xl`}>
