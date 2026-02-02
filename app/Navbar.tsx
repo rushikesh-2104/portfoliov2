@@ -13,7 +13,7 @@ const Navbar = () => {
         
         
         <h1 className="text-white font-extrabold text-xl md:text-2xl">
-          Hrishi<span className="text-green-500">.</span>
+          RM<span className="text-green-500">.</span>
         </h1>
 
         

@@ -3,7 +3,7 @@ import { Download } from "lucide-react";
 export default function Home() {
   return (
     <>
-      <div id="home" className="relative min-h-screen">
+      <div id="home" className="relative pb-30 md:pb-50">
 
         <div className="flex">
           <span className="text-white hidden md:block rotate-90 origin-bottom-left pl-65 md:pl-85 md:pb-5 pb-1">
@@ -11,7 +11,7 @@ export default function Home() {
           </span>
         </div>
 
-        <div className="flex flex-col items-start md:pt-20 pt-40">
+        <div className="flex flex-col items-start md:pt-45 pt-40">
           <h1 className="text-green-500 md:pl-20 pl-5 md:text-9xl text-5xl font-extrabold">
             FRONTEND
           </h1>
@@ -67,7 +67,17 @@ export default function Home() {
 
       </div>
 
-      <div id="about" className="h-full w-screen">
+      <div id="about" className="h-full ">
+        
+        <div className="px-5 md:px-20">
+          <p className="text-slate-200 text-xl md:text-6xl hidden md:block">I believe in a user centered design approach, <br />
+           ensuring that every project I work on is tailored <br />
+            to meet the specific needs of its users.</p>
+
+            <p className="text-slate-200 text-xl md:text-6xl md:hidden">I believe in a user centered design approach, <br />
+           ensuring that every project I work on is tailored <br />
+            to meet the specific needs of its users.</p>
+        </div>
 
       </div>
     </>
