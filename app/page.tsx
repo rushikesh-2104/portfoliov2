@@ -3,7 +3,7 @@ import { Download } from "lucide-react";
 export default function Home() {
   return (
     <>
-      <div className="relative min-h-screen">
+      <div id="home" className="relative min-h-screen">
 
         <div className="flex">
           <span className="text-white hidden md:block rotate-90 origin-bottom-left pl-65 md:pl-85 md:pb-5 pb-1">
@@ -64,6 +64,10 @@ export default function Home() {
             <span className="text-white text-md">Number of Skills</span>
           </div>
         </div>
+
+      </div>
+
+      <div id="about" className="h-full w-screen">
 
       </div>
     </>
