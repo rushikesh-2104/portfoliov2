@@ -1,6 +1,9 @@
 import { Download } from "lucide-react";
 import { Anton, Lora } from "next/font/google";
 import Image from "next/image";
+import WhatsappForm from "./whatsapp";
+import { Instagram, Github, Mail } from "lucide-react"
+
 
 const anton = Anton({
   subsets: ["latin"],
@@ -363,6 +366,54 @@ export default function Home() {
           </div>
 
         </div>
+      </div>
+
+      <div id="contact" className="h-full pt-10 pb-10 px-5 md:px-20 text-white">
+        <p className={`${lora.className} text-2xl text-center`}>Have a project in mind?</p>
+        <div>
+          <WhatsappForm/>
+        </div>
+      
+      
+
+<div className="mt-12">
+  <p className="text-center font-extrabold text-2xl pt-15">or</p>
+
+  <div className="flex items-center justify-center gap-8 mt-8">
+    {/* Instagram */}
+    <a
+      href="https://www.instagram.com/emoji2104?igsh=OWc3YTJkNzUydHk3"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="p-4 rounded-full border border-white/25 hover:border-white/70 hover:scale-110 transition"
+      aria-label="Instagram"
+    >
+      <Instagram className="w-7 h-7" />
+    </a>
+
+    {/* Github */}
+    <a
+      href="https://github.com/rushikesh-2104"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="p-4 rounded-full border border-white/25 hover:border-white/70 hover:scale-110 transition"
+      aria-label="Github"
+    >
+      <Github className="w-7 h-7" />
+    </a>
+
+    {/* Gmail */}
+    <a
+      href="mailto:hrishi210402@gmail.com"
+      className="p-4 rounded-full border border-white/25 hover:border-white/70 hover:scale-110 transition"
+      aria-label="Mail"
+    >
+      <Mail className="w-7 h-7" />
+    </a>
+  </div>
+</div>
+
+      
       </div>
     </>
   );
