@@ -3,7 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Navbar";
 
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -14,20 +13,21 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
 export const metadata: Metadata = {
-  
-  metadataBase: new URL("https://portfolio20-rho.vercel.app/"), 
-  verification:{
+  metadataBase: new URL("https://portfolio20-rho.vercel.app/"),
+
+  verification: {
     google: "kRh2yynu9dXvOinDxoP-HVXumVvkhc4jGXjcgrCszBQ",
   },
+
   title: {
     default: "Code By Rushikesh",
     template: "%s | Code By Rushikesh",
   },
+
   description:
     "Rushikesh Mhatre - Portfolio website. Web developer, frontend developer, and full-stack projects.",
-  
+
   keywords: [
     "Rushikesh Mhatre",
     "Portfolio",
@@ -38,7 +38,11 @@ export const metadata: Metadata = {
     "Angular",
     "Nextjs",
   ],
-  authors: [{ name: "Rushikesh Mhatre", url: "https://portfolio20-rho.vercel.app/" }],
+
+  authors: [
+    { name: "Rushikesh Mhatre", url: "https://portfolio20-rho.vercel.app/" },
+  ],
+
   creator: "Rushikesh Mhatre",
   publisher: "Rushikesh Mhatre",
 
@@ -50,7 +54,7 @@ export const metadata: Metadata = {
     siteName: "Portfolio",
     images: [
       {
-        url: "/rushi.jpeg", 
+        url: "/rushi.jpeg",
         width: 1200,
         height: 630,
         alt: "Rushikesh Portfolio",
@@ -93,7 +97,6 @@ export const metadata: Metadata = {
   },
 };
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -101,10 +104,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <Navbar/>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <Navbar />
         {children}
       </body>
     </html>
