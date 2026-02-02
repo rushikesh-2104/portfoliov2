@@ -44,7 +44,7 @@ export default function Home() {
         </div>
 
         
-        <div className="flex md:flex-col pr-3 pt-5 gap-3 md:absolute md:top-50 md:right-10 md:pt-0">
+        <div className="flex md:flex-col pr-3 pt-5 gap-3 md:absolute md:top-50 md:right-20 md:pt-0">
 
           <div className="text-center flex-col gap-1 pt-15">
             <span className="text-green-500 font-extrabold text-3xl">3+</span>{" "}
