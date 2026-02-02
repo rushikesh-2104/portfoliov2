@@ -1,4 +1,10 @@
 import { Download } from "lucide-react";
+import { Lora } from "next/font/google";
+
+const lora = Lora({
+  subsets: ["latin"],
+  weight: "400",   
+});
 
 export default function Home() {
   return (
@@ -11,7 +17,7 @@ export default function Home() {
           </span>
         </div>
 
-        <div className="flex flex-col items-start md:pt-45 pt-40">
+        <div className="flex flex-col items-start md:pt-45 pt-60">
           <h1 className="text-green-500 md:pl-20 pl-5 md:text-9xl text-5xl font-extrabold">
             FRONTEND
           </h1>
@@ -67,16 +73,33 @@ export default function Home() {
 
       </div>
 
-      <div id="about" className="h-full ">
+      <div id="about" className="h-full pb-10">
         
         <div className="px-5 md:px-20">
-          <p className="text-slate-200 text-xl md:text-6xl hidden md:block">I believe in a user centered design approach, <br />
-           ensuring that every project I work on is tailored <br />
+          <p className={`${lora.className} text-slate-200 md:text-7xl hidden md:block`}>I believe in a user centered design approach,
+           ensuring that every project I work on is tailored
             to meet the specific needs of its users.</p>
 
-            <p className="text-slate-200 text-xl md:text-6xl md:hidden">I believe in a user centered design approach, <br />
-           ensuring that every project I work on is tailored <br />
-            to meet the specific needs of its users.</p>
+            <p className={`${lora.className} text-slate-200 text-2xl md:text-6xl md:hidden`}>
+            I believe in a user centered design approach, 
+            ensuring that every project I work on is tailored
+            to meet the specific needs of its users.
+            </p>
+        </div>
+
+        <div className="text-slate-200 text-lg pb-2 pl-5 md:pl-20 pt-10 md:pt-20">This is me.</div>
+        <div className="w-[90vw] md:w-[88vw] h-[0.5px] md:h-[0.5px] ml-5 md:ml-20 bg-white"></div>
+        
+        <div className="text-white px-5 md:px-20 pt-2 md:pt-10">
+<div className="md:grid grid-cols-2 grid-rows-1 gap-1">
+    <div className={`${lora.className} text-3xl md:text-5xl pb-3`}>Hii, I'm Rushikesh.</div>
+    <div className="text-md md:text-2xl">I'm a frontend web developer dedicated to turning ideas into creative solutions.
+      I specialize in creating seamless and intuitive user experiences.
+      My approach focuses on creating scalable, high-performing solutions tailored to both user
+      needs and business objectives. By prioritizing performance, accessibility, and responsiveness,
+      I strive to deliver experiences that not only engage users but also drive tangible results.
+      </div>
+</div>
         </div>
 
       </div>
