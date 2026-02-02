@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     siteName: "Portfolio",
     images: [
       {
-        url: "/rushi.png", // public/og.png
+        url: "/rushi.jpeg", 
         width: 1200,
         height: 630,
         alt: "Rushikesh Portfolio",
@@ -59,8 +59,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Code By Rushikesh",
     description:
-      "Portfolio of Rushikesh Mhatre - Web developer & UI designer.",
-    images: ["/rushi.png"],
+      "Portfolio of Rushikesh Mhatre - Frontend developer & UI designer.",
+    images: ["/rushi.jpeg"],
   },
 
   icons: {
