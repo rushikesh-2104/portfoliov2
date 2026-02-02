@@ -20,13 +20,13 @@ export default function Home() {
           </h2>
 
           <p className="text-gray-300 hidden md:block md:pl-30 md:pt-5">
-            Hi! I'm <b>Rushikesh</b>. A Frontend Developer who builds responsive,
+            Hi! I'm <b className="text-lg text-green-400">Rushikesh</b>. A Frontend Developer who builds responsive,
             SEO-friendly websites and <br /> web apps, turning ideas into clean
             and modern user interfaces.
           </p>
 
           <p className="text-gray-300 md:hidden pl-5 pt-2">
-            Hi! I'm <b>Rushikesh</b>. A Frontend Developer <br />
+            Hi! I'm <b className="text-lg text-green-300">Rushikesh</b>. A Frontend Developer <br />
             who builds responsive, SEO-friendly websites <br />
             and web apps, turning ideas into clean <br />
             and modern user interfaces.
