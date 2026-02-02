@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     title: "Code By Rushikesh",
     description:
       "Portfolio of Rushikesh Mhatre - Web developer & UI designer.",
-    images: ["/og.png"],
+    images: ["/rushi.png"],
   },
 
   icons: {
