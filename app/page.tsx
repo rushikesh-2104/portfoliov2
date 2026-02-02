@@ -321,7 +321,7 @@ export default function Home() {
             <div>
             <span className={`${anton.className} text-4xl md:text-8xl hover:text-green-400`}>NK INTERIORS</span> <br />
             <span className="md:text-2xl text-sm">Interior Designer Personal Portfolio</span> <br />
-            <span className="cursor-pointer hover:text-green-500">Live Demo : https://nkinterior.vercel.app/ </span>
+            <span className="cursor-pointer hover:text-green-500">Live Demo : <a href="https://nkinterior.vercel.app/">nkinterior.vercel.app</a> </span>
             </div>
           </div>
 
@@ -331,7 +331,7 @@ export default function Home() {
             <div>
             <span className={`${anton.className} text-4xl md:text-8xl hover:text-green-400`}>SUMEDH CULINARY</span> <br />
             <span className="md:text-2xl text-sm">Chef Personal Portfolio</span> <br />
-            <span className="cursor-pointer hover:text-green-500">Live Demo : https://sumedh-portfolio-seven.vercel.app/ </span>
+            <span className="cursor-pointer hover:text-green-500">Live Demo : <a href="https://sumedh-portfolio-seven.vercel.app/">sumedh-portfolio-seven.vercel.app</a>  </span>
             </div>
           </div>
 
@@ -341,7 +341,7 @@ export default function Home() {
             <div>
             <span className={`${anton.className} text-4xl md:text-8xl hover:text-green-400`}>FOCUS FOLIO</span> <br />
             <span className="md:text-2xl text-sm">Mobile Photography Portfolio</span> <br />
-            <span className="cursor-pointer hover:text-green-500">Live Demo : https://focusfolio.vercel.app/ </span>
+            <span className="cursor-pointer hover:text-green-500">Live Demo : <a href="https://focusfolio.vercel.app/"> focusfolio.vercel.app </a> </span>
             </div>
           </div>
 
@@ -351,7 +351,7 @@ export default function Home() {
             <div>
             <span className={`${anton.className} text-4xl md:text-8xl hover:text-green-400`}>PERSONAL PORTFOLIO</span> <br />
             <span className="md:text-2xl text-sm">Personal Portfolio version 1</span> <br />
-            <span className="cursor-pointer hover:text-green-500">Live Demo : https://portfolio-one-green-75.vercel.app/ </span>
+            <span className="cursor-pointer hover:text-green-500">Live Demo : <a href="https://portfolio-one-green-75.vercel.app/">portfolio-one-green-75.vercel.app</a>  </span>
             </div>
           </div>
 
@@ -361,7 +361,7 @@ export default function Home() {
             <div>
             <span className={`${anton.className} text-4xl md:text-8xl hover:text-green-400`}>RESUME BUILDS</span> <br />
             <span className="md:text-2xl text-sm">Resume Builder Webapplication</span> <br />
-            <span className="cursor-pointer hover:text-green-500">Live Demo : https://resume-builds.vercel.app/ </span>
+            <span className="cursor-pointer hover:text-green-500">Live Demo : <a href="https://resume-builds.vercel.app/"> resume-builds.vercel.app </a>  </span>
             </div>
           </div>
 
