@@ -16,13 +16,15 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://portfolio20-rho.vercel.app/"), // <-- apna domain
+  
+  metadataBase: new URL("https://portfolio20-rho.vercel.app/"), 
   title: {
     default: "Code By Rushikesh",
     template: "%s | Code By Rushikesh",
   },
   description:
     "Rushikesh Mhatre - Portfolio website. Web developer, frontend developer, and full-stack projects.",
+  
   keywords: [
     "Rushikesh Mhatre",
     "Portfolio",
@@ -36,6 +38,10 @@ export const metadata: Metadata = {
   authors: [{ name: "Rushikesh Mhatre", url: "https://portfolio20-rho.vercel.app/" }],
   creator: "Rushikesh Mhatre",
   publisher: "Rushikesh Mhatre",
+
+  verification:{
+    google: "kRh2yynu9dXvOinDxoP-HVXumVvkhc4jGXjcgrCszBQ",
+  },
 
   openGraph: {
     title: "Rushikesh Portfolio",
