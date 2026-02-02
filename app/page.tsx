@@ -1,6 +1,11 @@
 import { Download } from "lucide-react";
-import { Lora } from "next/font/google";
+import { Anton, Lora } from "next/font/google";
+import Image from "next/image";
 
+const anton = Anton({
+  subsets: ["latin"],
+  weight: "400",   
+});
 
 const lora = Lora({
   subsets: ["latin"],
@@ -103,11 +108,201 @@ export default function Home() {
 </div>
         </div>
 
-        <div className="flex px-5 pt-10 md:px-20">
-          
-          
+        <div className="px-5 md:px-20 pt-20 text-white">
+        <p className="font-sans text-2xl">My Stack</p>
+  
+<div className="md:grid grid-cols-2 grid-rows-1 gap-1 pt-10">
 
-          
+    <div className={`${anton.className} text-4xl`}>FRONTEND</div>
+
+    <div className="flex flex-wrap pt-2 md:pt-0">
+      <div className="flex">
+      <span>
+        <Image alt="HTML" height={70} width={70} quality={75} src="/html.png" />
+      </span>
+      <span className="pt-5 text-2xl font-sans">
+        HTML
+      </span>
+      </div>
+
+      <div className="flex pl-10">
+      <span>
+        <Image alt="css3" height={70} width={70} quality={100} src="/css3.png"/>
+      </span>
+      <span className="pt-5 text-2xl font-sans">
+        CSS3
+      </span>
+      </div>
+
+      <div className="flex md:pl-10">
+      <span>
+        <Image alt="javascript" height={70} width={70} quality={100} src="/js.png" />
+      </span>
+      <span className="pt-5 text-2xl font-sans">
+        JAVASCRIPT
+      </span>
+      </div>
+
+
+      <div className="flex pt-5">
+      <span>
+        <Image alt="angular" height={60} width={60} quality={100} src="/ng.png" />
+      </span>
+      <span className="pt-3 text-2xl font-sans">
+        ANGULAR
+      </span>
+      </div>
+
+      <div className="flex pl-10 pt-5">
+      <span>
+        <Image alt="REACT" height={50} width={50} quality={100} src="/react.png" />
+      </span>
+      <span className="pt-3 pl-1 text-2xl font-sans">
+        REACT
+      </span>
+      </div>
+
+      <div className="flex md:pl-10 pt-5">
+      <span>
+        <Image alt="bootstrap" height={50} width={50} quality={100} src="/bootstrap.png" />
+      </span>
+      <span className="pt-3 pl-1 text-2xl font-sans">
+        BOOTSTRAP
+      </span>
+      </div>
+
+      <div className="flex md:pt-5 pt-8">
+      <span>
+        <Image alt="typescript" height={60} width={60} quality={100} src="/ts.png" />
+      </span>
+      <span className="pt-3 text-2xl font-sans">
+        TYPESCRIPT
+      </span>
+      </div>
+
+      <div className="flex pl-5 md:pt-5 pt-8">
+      <span>
+        <Image alt="nextjs" height={50} width={50} quality={100} src="/next.png" />
+      </span>
+      <span className="pt-3 pl-1 text-2xl font-sans">
+        NEXT.JS
+      </span>
+      </div>
+
+       <div className="flex md:pl-5 pt-5">
+      <span>
+        <Image alt="GSAP" height={50} width={50} quality={100} src="/gsap.png" />
+      </span>
+      <span className="pt-3 pl-1 text-2xl font-sans">
+        GSAP
+      </span>
+      </div> 
+
+      <br />
+    </div>
+    
+
+    
+</div>
+
+<div className="md:grid grid-cols-2 grid-rows-1 gap-1 pt-15">
+
+    <div className={`${anton.className} text-4xl`}>BACKEND</div>
+
+    <div className="flex flex-wrap">
+      <div className="flex">
+      <span>
+        <Image alt="nodejs" height={70} width={70} quality={100} src="/node.png" />
+      </span>
+      <span className="pt-5 pl-2 text-2xl font-sans">
+        NODE.JS
+      </span>
+      </div>
+
+      <div className="flex md:pl-10 pl-2">
+      <span>
+        <Image alt="EXPRESS" height={40} width={40} quality={100} src="/express.png" className="md:pt-4 pt-3"/>
+      </span>
+      <span className="md:pt-5 pt-4 pl-2 text-2xl font-sans">
+        EXPRESS.JS
+      </span>
+      </div>
+
+      
+    </div>
+    
+
+    
+</div>
+
+<div className="md:grid grid-cols-2 grid-rows-1 gap-1 pt-15">
+
+    <div className={`${anton.className} text-4xl`}>DATABASE</div>
+
+    <div className="flex flex-wrap">
+      <div className="flex">
+      <span>
+        <Image alt="mysql" height={70} width={70} quality={100} src="/mysql.png" />
+      </span>
+      <span className="pt-7 pl-2 text-2xl font-sans">
+        MYSQL
+      </span>
+      </div>
+
+      <div className="flex md:pl-10 pl-5">
+      <span>
+        <Image alt="mongodb" height={50} width={50} quality={100} src="/mongodb.png" className="pt-5"/>
+      </span>
+      <span className="pt-7 text-2xl font-sans">
+        MONGODB
+      </span>
+      </div>
+
+      
+    </div>
+    
+
+    
+</div>
+
+<div className="md:grid grid-cols-2 grid-rows-1 gap-1 pt-15">
+
+    <div className={`${anton.className} text-4xl`}>TOOLS</div>
+
+    <div className="flex flex-wrap">
+      <div className="flex pt-5 md:pt-0">
+      <span>
+        <Image alt="git" height={70} width={70} quality={100} src="/git.png" />
+      </span>
+      <span className="pt-5 pl-2 text-2xl font-sans">
+        GIT
+      </span>
+      </div>
+
+      <div className="flex pl-10 pt-5 md:pt-0">
+      <span>
+        <Image alt="vercel" height={50} width={50} quality={100} src="/vercel.png" className="py-1 mt-1 bg-white"/>
+      </span>
+      <span className="pt-5 pl-2 text-2xl font-sans">
+        VERCEL
+      </span>
+      </div>
+
+
+      <div className="flex md:pl-5 pl-2">
+      <span>
+        <Image alt="postman" height={50} width={50} quality={100} src="/postman.png" className="pt-2"/>
+      </span>
+      <span className="pt-5 pl-2 text-2xl font-sans">
+        POSTMAN
+      </span>
+      </div>
+      
+    </div>
+    
+
+    
+</div>      
 
         </div>
 
