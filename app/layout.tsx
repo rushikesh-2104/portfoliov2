@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   
   metadataBase: new URL("https://portfolio20-rho.vercel.app/"), 
+  verification:{
+    google: "kRh2yynu9dXvOinDxoP-HVXumVvkhc4jGXjcgrCszBQ",
+  },
   title: {
     default: "Code By Rushikesh",
     template: "%s | Code By Rushikesh",
@@ -38,10 +41,6 @@ export const metadata: Metadata = {
   authors: [{ name: "Rushikesh Mhatre", url: "https://portfolio20-rho.vercel.app/" }],
   creator: "Rushikesh Mhatre",
   publisher: "Rushikesh Mhatre",
-
-  verification:{
-    google: "kRh2yynu9dXvOinDxoP-HVXumVvkhc4jGXjcgrCszBQ",
-  },
 
   openGraph: {
     title: "Rushikesh Portfolio",
