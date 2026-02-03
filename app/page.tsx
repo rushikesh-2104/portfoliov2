@@ -294,7 +294,7 @@ export default function Home() {
 
       <div className="flex md:pl-5 pl-2">
       <span>
-        <Image alt="postman" height={50} width={50} quality={75} src="/postman.png" className="pt-2"/>
+        <Image alt="postman" height={50} width={50} quality={75} src="/Postman.png" className="pt-2"/>
       </span>
       <span className="pt-5 pl-2 text-2xl font-sans">
         POSTMAN
