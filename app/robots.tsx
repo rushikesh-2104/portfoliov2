@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://portfolio20-rho.vercel.app/",
+    sitemap: "https://portfolio20-rho.vercel.app/sitemap.xml",
   };
 }
