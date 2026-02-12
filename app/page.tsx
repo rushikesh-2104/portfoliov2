@@ -121,7 +121,7 @@ export default function Home() {
     <div className="flex flex-wrap pt-2 md:pt-0">
       <div className="flex">
       <span>
-        <Image alt="HTML" height={70} width={70} quality={75} src="/html.png" />
+        <Image alt="HTML logo frontend technology" height={70} width={70} quality={75} src="/html.png" />
       </span>
       <span className="pt-5 text-2xl font-sans">
         HTML
@@ -130,7 +130,7 @@ export default function Home() {
 
       <div className="flex pl-10">
       <span>
-        <Image alt="css3" height={70} width={70} quality={75} src="/css3.png"/>
+        <Image alt="css3 logo frontend technology" height={70} width={70} quality={75} src="/css3.png"/>
       </span>
       <span className="pt-5 text-2xl font-sans">
         CSS3
@@ -139,7 +139,7 @@ export default function Home() {
 
       <div className="flex md:pl-10">
       <span>
-        <Image alt="javascript" height={70} width={70} quality={75} src="/js.png" />
+        <Image alt="javascript logo frontend technology" height={70} width={70} quality={75} src="/js.png" />
       </span>
       <span className="pt-5 text-2xl font-sans">
         JAVASCRIPT
@@ -149,7 +149,7 @@ export default function Home() {
 
       <div className="flex pt-5">
       <span>
-        <Image alt="angular" height={60} width={60} quality={75} src="/ng.png" />
+        <Image alt="angular logo frontend technology" height={60} width={60} quality={75} src="/ng.png" />
       </span>
       <span className="pt-3 text-2xl font-sans">
         ANGULAR
@@ -158,7 +158,7 @@ export default function Home() {
 
       <div className="flex pl-10 pt-5">
       <span>
-        <Image alt="REACT" height={50} width={50} quality={75} src="/react.png" />
+        <Image alt="REACT logo frontend technology" height={50} width={50} quality={75} src="/react.png" />
       </span>
       <span className="pt-3 pl-1 text-2xl font-sans">
         REACT
@@ -167,7 +167,7 @@ export default function Home() {
 
       <div className="flex md:pl-10 pt-5">
       <span>
-        <Image alt="bootstrap" height={50} width={50} quality={75} src="/bootstrap.png" />
+        <Image alt="bootstrap logo frontend technology" height={50} width={50} quality={75} src="/bootstrap.png" />
       </span>
       <span className="pt-3 pl-1 text-2xl font-sans">
         BOOTSTRAP
@@ -176,7 +176,7 @@ export default function Home() {
 
       <div className="flex md:pt-5 pt-8">
       <span>
-        <Image alt="typescript" height={60} width={60} quality={75} src="/ts.png" />
+        <Image alt="typescript logo frontend technology" height={60} width={60} quality={75} src="/ts.png" />
       </span>
       <span className="pt-3 text-2xl font-sans">
         TYPESCRIPT
@@ -185,7 +185,7 @@ export default function Home() {
 
       <div className="flex pl-5 md:pt-5 pt-8">
       <span>
-        <Image alt="nextjs" height={50} width={50} quality={75} src="/next.png" />
+        <Image alt="nextjs logo frontend technology" height={50} width={50} quality={75} src="/next.png" />
       </span>
       <span className="pt-3 pl-1 text-2xl font-sans">
         NEXT.JS
@@ -194,7 +194,7 @@ export default function Home() {
 
        <div className="flex md:pl-5 pt-5">
       <span>
-        <Image alt="GSAP" height={50} width={50} quality={75} src="/gsap.png" />
+        <Image alt="GSAP logo frontend technology" height={50} width={50} quality={75} src="/gsap.png" />
       </span>
       <span className="pt-3 pl-1 text-2xl font-sans">
         GSAP
@@ -215,7 +215,7 @@ export default function Home() {
     <div className="flex flex-wrap">
       <div className="flex">
       <span>
-        <Image alt="nodejs" height={70} width={70} quality={75} src="/node.png" />
+        <Image alt="nodejs logo backend technology" height={70} width={70} quality={75} src="/node.png" />
       </span>
       <span className="pt-5 pl-2 text-2xl font-sans">
         NODE.JS
@@ -224,7 +224,7 @@ export default function Home() {
 
       <div className="flex md:pl-10 pl-2">
       <span>
-        <Image alt="EXPRESS" height={40} width={40} quality={75} src="/express.png" className="md:pt-4 pt-3"/>
+        <Image alt="EXPRESS logo backend technology" height={40} width={40} quality={75} src="/express.png" className="md:pt-4 pt-3"/>
       </span>
       <span className="md:pt-5 pt-4 pl-2 text-2xl font-sans">
         EXPRESS.JS
@@ -245,7 +245,7 @@ export default function Home() {
     <div className="flex flex-wrap">
       <div className="flex">
       <span>
-        <Image alt="mysql" height={70} width={70} quality={75} src="/mysql.png" />
+        <Image alt="mysql logo database technology" height={70} width={70} quality={75} src="/mysql.png" />
       </span>
       <span className="pt-7 pl-2 text-2xl font-sans">
         MYSQL
@@ -254,7 +254,7 @@ export default function Home() {
 
       <div className="flex md:pl-10 pl-5">
       <span>
-        <Image alt="mongodb" height={50} width={50} quality={75} src="/mongodb.png" className="pt-5"/>
+        <Image alt="mongodb logo database technology" height={50} width={50} quality={75} src="/mongodb.png" className="pt-5"/>
       </span>
       <span className="pt-7 text-2xl font-sans">
         MONGODB

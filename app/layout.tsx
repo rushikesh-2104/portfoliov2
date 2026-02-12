@@ -30,6 +30,10 @@ export const metadata: Metadata = {
 
   keywords: [
     "Rushikesh Mhatre",
+    "rushikesh mhatre",
+    "rushikesh",
+    "Rushikesh",
+    "frontend developer",
     "Portfolio",
     "Web Developer",
     "Panvel",
