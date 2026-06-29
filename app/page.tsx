@@ -341,7 +341,7 @@ export default function Home() {
             <div>
             <span className={`${anton.className} text-4xl md:text-8xl hover:text-green-400`}>FOCUS FOLIO</span> <br />
             <span className="md:text-2xl text-sm">Mobile Photography Portfolio</span> <br />
-            <span className="cursor-pointer hover:text-green-500">Live Demo : <a href="https://focusfolio.vercel.app/"> focusfolio.vercel.app </a> </span>
+            <span className="cursor-pointer hover:text-green-500">Live Demo : <a href="https://focusfolio20.vercel.app/"> focusfolio20.vercel.app </a> </span>
             </div>
           </div>
 
